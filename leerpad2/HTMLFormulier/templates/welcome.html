@@ -12,9 +12,11 @@
 <body>
     <form action="/submit" method="post">
         <label for="input">Naam:</label>
-        <input name="name" type="text" class="input"><br><br>
+        <input name="name" type="text" class="input" required>
+        <span style="color: red;">*</span><br><br>
         <label for="input">Email:</label>
-        <input name="email" type="text" class="input"><br><br>
+        <input name="email" type="email" class="input" required>
+        <span style="color: red;">*</span><br><br>
 
         <input type="submit">
     </form>
