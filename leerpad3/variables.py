@@ -1,1 +1,1 @@
-naam = "RemcoDrolenga"
+naam = ["Banaan", "Appel", "peer"]
